@@ -1,2 +1,1 @@
-# assignment1py
-Python 1 assignment
+A basic calculator program in python
