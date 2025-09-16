@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>
+        User Registration & Preferences
+        
+    </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>User Registration & Preferences</h1>
+    <p>Fill out this form to register and tell us about your preferences. Below are some resources and information.</p>
+    <ul>
+    <h2>
+        “Benefits of registering with us"
+    </h2>
+    <li>
+        Access exclusive resources
+    </li>
+    <li>
+        Receive event updates
+    </li>
+    <li>
+        Customize your profile
+    </li>
+    </ul>
+    <Table border="2">
+        <caption>Upcoming Events</caption>
+        <tr>
+            <th>Date</th>
+            <th>Event</th>
+            <th>Location</th>
+        </tr>
+        <tr>
+    <td>2025-09-20</td>
+    <td>Tech Conference</td>
+    <td>Nairobi</td>
+  </tr>
+    </Table>
+    <img src="An image with Tech people.jpg" alt="Tech enthuiasts" width="400" height="300">
+    <audio controls>
+        <source src="welcome.mp3.m4a" type="audio/mpeg">
+        
+    </audio>
+    <video controls width="400" height="300">
+        <source src="video.mp4.mp4" type="video/mp4">
+
+    </video>
+    <h3>Registration form</h3>
+    <form action="/submit" method="post"></form>
+    <label for="full name">Full name:</label>
+    <input type="text" id="full name" name="full name" required><br><br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required><br><br>
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required><br><br>
+    <label for="phone">Phone Number:</label>
+    <input type="number" id="phone" placeholder="Enter 10-digit phone number" minlength="10" maxlength="10" pattern="[0-9]+"  [0-9]{10}" required><br><br>
+    <input type="radio" name="Gender" value="Male">Male
+    <input type="radio" name="Gender" value="Female">Female
+    <input type="radio" name="Gender" value="other">Other
+    <p>Select your hobbies:</p>
+    <label for="Riding">Riding:</label>
+    <input type="checkbox" name="Hobby" value="Riding">
+    <label for="Reading">Reading:</label>
+    <input type="checkbox" name="Hobby" value="Reading">
+    <label for="Cooking">Cooking:</label>
+    <input type="checkbox" name="Hobby" value="Cooking">
+    <label for="Travelling">Travelling:</label>
+    <input type="checkbox" name="Hobby" value="Travelling"><br><br>
+    <label for="country">Country:</label>
+    <select id="country" name="country">
+        <option value="Kenya">Kenya</option>
+        <option value="Uganda">Uganda</option>
+        <option value="Tanzania">Tanzania</option>
+        <option value="Rwanda">Rwanda</option>
+    <label for="bio">Short bio</label><br>
+    </select>
+    <textarea id="bio" name="bio" rows="4" cols="50" placeholder="Tell us about yourself..."></textarea><br><br>
+<fieldset>
+    <legend>Account details</legend>
+    <label for="dob">Date of birth</label>
+    <input type="date" id="dob" name="dob" required><br><br>
+      <label for="fav-number">Favorite Number:</label><br>
+  <input type="number" id="fav-number" name="favorite_number" min="1" max="100" placeholder="1 - 100"><br><br>
+    <label for="website">Website:</label><br>
+  <input type="url" id="website" name="website" placeholder="https://example.com"><br><br>
+    <label for="profile-pic">Upload Profile Picture:</label><br>
+  <input type="file" id="profile-pic" name="profile_picture" accept="image/*"><br><br>
+      <label for="member-id">Membership ID:</label><br>
+  <input type="text" id="member-id" name="member_id" value="USER12345" readonly><br><br>
+  </fieldset>
+
+
+    
+
+
+
+
+
+  
+</fieldset>
+    
+
+
+
+
+
+</body>
+</html>
